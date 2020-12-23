@@ -1,0 +1,41 @@
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: white;
+  padding: 10px;
+  border-style: solid;
+  background-color: navy;
+  border-style: ridge;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 100px;
+  padding-bottom: 20px;
+  line-height: 1;
+  align-content:flex-start;
+  font-style: normal;
+  font-family: Georgia;
+}
+main {
+  text-align: center;
+}
